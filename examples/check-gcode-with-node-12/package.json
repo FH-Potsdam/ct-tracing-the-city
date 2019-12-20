@@ -1,0 +1,21 @@
+{
+  "name": "cncjs-test",
+  "version": "1.0.0",
+  "description": "Running cncjs under node 12",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "cncjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cncjs": "*"
+  },
+  "engines": {
+    "node": ">11"
+  },
+  "resolutions": {
+    "serialport": "^8.0.5"
+  }
+}
