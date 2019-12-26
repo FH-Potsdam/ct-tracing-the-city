@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Page Title</title>
+    <meta name="description" content="something" />
+    <meta name="author" content="me" />
+    <style>
+      /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+        width: 100vw;
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <script src="./libs/p5.js"></script>
+    <script src="index.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+        let vh = window.innerHeight * 0.01;
+        // Then we set the value in the --vh custom property to the root of the document
+        document.documentElement.style.setProperty("--vh", `${vh}px`);
+      });
+    </script>
+  </body>
+</html>
