@@ -1,20 +1,18 @@
-# Deconstructing Master Artists (dma)
+# Basic Data Drawing With Vanillajs
 
 > Starter kit for the seminar "Creative Technologists - Tracing the City" @ University of Applied Sciences Potsdam (Germany) winter semester 2019/2020 by Fabian Morón Zirfas
 
+This example shows how to load data, parse csv and display it using only standard Javascript browser APIs (Vanillajs). No libraries involved.
+
 ## Usage
 
-1. Open a terminal session in the root of the repository and type `npm install`  and hit return ↩ to install all dependencies.
-
+1. Open a terminal session in this folder, type `npm install`  and hit return ↩ to install all dependencies.
 2. Type `npm start` and hit return ↩ to start the reload server.
-
-3. Start deconstructing your master artist.
-
-4. When you are done and enrolled in the classroom, use the classroom to submit your assignment.
+3. Start hacking.
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/FH-Potsdam/dma/issues)
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/FH-Potsdam/ct-tracing-the-city/issues)
 
 ## Author(s)
 
