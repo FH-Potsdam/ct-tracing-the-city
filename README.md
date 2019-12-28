@@ -87,7 +87,7 @@ npm install reload -D
 
 *!Note: To install cncjs you will have to run **Node.js <= 10**. Use nvm to install another version. nvm install v10.16.3*
 
-To see if your GCode can be understood by the CityLAB plotter you should run it through [cncjs](https://cnc.js.org/). To be able to connect cncjs and preview your GCode you need an Arduino board running on a USB port. The right solution to do this should be installing [GRBL](https://github.com/gnea/grbl/wiki/Compiling-Grbl) on that board.
+To see if your GCode can be understood by the CityLAB plotter you should run it through [cncjs](https://cnc.js.org/). See  the example [check gcode](examples/check-gcode/README.md) To be able to connect cncjs and preview your GCode you need an Arduino board running on a USB port. The right solution to do this should be installing [GRBL](https://github.com/gnea/grbl/wiki/Compiling-Grbl) on that board.
 
 (For the lazy ones:) Just flash the sketch below to your board and connect from the connection widget of cncjs to the listed board.
 
