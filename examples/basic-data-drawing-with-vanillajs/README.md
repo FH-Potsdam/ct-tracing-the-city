@@ -2,7 +2,7 @@
 
 > Starter kit for the seminar "Creative Technologists - Tracing the City" @ University of Applied Sciences Potsdam (Germany) winter semester 2019/2020 by Fabian Morón Zirfas
 
-This example shows how to load data, parse csv and display it using only standard Javascript browser APIs (Vanillajs). No libraries involved.
+This example shows how to load data, parse CSV and display it using only standard Javascript browser APIs (Vanillajs). No libraries involved.
 
 ## Usage
 

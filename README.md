@@ -56,7 +56,7 @@ When you have some data you will have to clean it up. Try to remove all noise an
 
 ## Visualize Data
 
-This is where you have to get into code. To get a grip on what is going on I suggest to start with P5.js. It has a nice and convenient function called `loadTable` [(reference)](https://p5js.org/reference/#/p5/loadTable). Take a look at the [basic data drawing with p5js](examples/basic-data–drawing-with-p5js/README.md) examples in this repository to get a grip on it. If you want to skip P5.js you can try it without an additional library and use Vanilla.js. Take a look at the example [basic data drawing with vanillajs](examples/basic-data-drawing-with-vanilla).
+This is where you have to get into code. To get a grip on what is going on I suggest to start with P5.js. It has a nice and convenient function called `loadTable` [(reference)](https://p5js.org/reference/#/p5/loadTable). Take a look at the [basic data drawing with p5js](examples/basic-data–drawing-with-p5js/README.md) examples in this repository to get a grip on it. If you want to skip P5.js you can try it without an additional library and use Vanilla.js. Take a look at the example [basic data drawing with Vanillajs](examples/basic-data-drawing-with-vanillajs/README.md).
 
 If you are working with spatial data take a look into [basic spatial data drawing example](examples/basic-spatial-data-drawing-example/README.md).  
 
