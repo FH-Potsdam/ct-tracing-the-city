@@ -1,0 +1,15 @@
+{
+  "name": "check-gcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cncjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cncjs": "^1.9.20"
+  }
+}
