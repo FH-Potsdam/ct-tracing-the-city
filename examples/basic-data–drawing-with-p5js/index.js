@@ -5,6 +5,7 @@ function preload() {
   // @ts-ignore
   table = loadTable("data/foobah.csv", "csv", "header");
 }
+
 function setup() {
   createCanvas(200, 200); // setup the screen. Remenber 1px ≈ 1mm
   //----------------------------------------------------------------
@@ -35,7 +36,7 @@ function setup() {
     let row = table.getRow(i); // isolate one row. It is a row object
     const num = parseInt(row.getString(0), 10); // We parse the value to an integer. We know its only ints in the table. If there are floats we should use `parseFloat`
 
-    if (isNaN(num) !== true) {
+    if (isNaN(num) === false) {
       // check if the parsed value is a number (NaN = "Not a Number")
       if (num > max) {
         // now check if the value is higher then max
@@ -97,7 +98,7 @@ function setup() {
     const value = convertedToNum[i]; // isolate the value
     const mappedValue = map(value, min, max, 0, height); // map it into the screen size
     vertex(x, height / 2 - mappedValue / 2); // draw two verticies one on the top
-    vertex(x, height / 2 + mappedValue / 2); // and one on the bottm
+    vertex(x, height / 2 + mappedValue / 2); // and one on the bottom
     x += step;
   }
   endShape();

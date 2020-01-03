@@ -1,8 +1,11 @@
 const path = require("path");
 const fs = require("fs");
+
 const { createCanvas } = require("canvas");
+
 const { loadTable } = require("./lib/load-table");
 const { map } = require("./lib/map");
+
 const width = 200;
 const height = 200;
 const canvas = createCanvas(width, height, "svg");

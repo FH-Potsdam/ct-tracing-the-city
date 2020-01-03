@@ -28,7 +28,8 @@
     "reload": "^3.0.1"
   },
   "dependencies": {
-    "p5": "^0.10.2"  },
+    "p5": "^0.10.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FH-Potsdam/dma.git"

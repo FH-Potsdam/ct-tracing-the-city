@@ -1,0 +1,27 @@
+{
+  "name": "basic-spatial-data-drawing-with-node-js",
+  "version": "1.0.0",
+  "description": "W.I.P. Subscribe to the repo and wait for updates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reload": "reload -d ./out/ -b -p 3000 -e \"svg,html,js,css\"",
+    "nodemon": "nodemon",
+    "start": "npm-run-all --parallel nodemon reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/bbox": "^6.0.1",
+    "canvas": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "reload": "^3.0.3"
+  }
+}
