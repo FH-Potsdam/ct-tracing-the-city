@@ -4,7 +4,6 @@
   "description": "W.I.P. Subscribe to the repo and wait for updates.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "svgcode": "svgcode",
     "svgcode:help": "svgcode --help",
     "svgcode:example": "svgcode ./src/another-svg-sketch-from-p5js.svg ./out/sketch.gc --config ./svgcode.config.json"
