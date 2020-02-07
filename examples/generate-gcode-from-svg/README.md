@@ -19,3 +19,9 @@ There are three scripts provided.
     }
 }
 ```
+
+Run the script  
+
+```bash
+npm run svgcode:example
+```

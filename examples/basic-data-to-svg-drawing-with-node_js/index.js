@@ -110,6 +110,7 @@ loadTable("./data/foobah.csv", ",", true)
       ctx.lineTo(x, height / 2 + mappedValue / 2); // and one on the bottm
       x += step;
     }
+    ctx.strokeStyle = "tomato";
     ctx.stroke();
 
     // YOUR CODE ENDS HERE YOUR CODE ENDS HERE YOUR CODE ENDS HERE

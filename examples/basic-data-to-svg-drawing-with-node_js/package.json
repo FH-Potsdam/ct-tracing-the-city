@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "reload": "reload -d ./out/ -b -p 3000 -e \"svg,html,js,css\"",
-    "nodemon":"nodemon",
+    "nodemon":"nodemon -e js,csv",
     "start": "npm-run-all --parallel nodemon reload"
 
   },

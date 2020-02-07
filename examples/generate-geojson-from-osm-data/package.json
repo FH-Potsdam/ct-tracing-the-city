@@ -1,0 +1,15 @@
+{
+  "name": "generate-geojson-from-osm-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "query-overpass": "^1.5.5"
+  }
+}
